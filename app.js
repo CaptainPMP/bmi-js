@@ -30,9 +30,13 @@ function CalculateBMI(){
     else if(BMI <= 0){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
         document.getElementById("BMIValue").innerHTML = "เกิดข้อผิดพลาด ค่าที่ได้มีค่าติดลบ";
+        document.getElementById("BMIValue").style.color = "red";
+        document.getElementById("BMIValue").style.fontWeight = bold;
     }
     else if(isNaN(BMI)){
         document.getElementById("BMIValue").innerHTML = "เกิดข้อผิดพลาด";
+        document.getElementById("BMIValue").style.color = "red";
+        document.getElementById("BMIValue").style.fontWeight = bold;
     }
     console.log(Height);
     console.log(Weight);
