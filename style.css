@@ -67,3 +67,16 @@ body .container div{
     text-align: center;
     color: yellow;
 }
+th, td {
+    text-align: center;
+    border-bottom: 1px solid rgb(253, 165, 0);
+}
+table, th, td {
+    border-collapse: collapse;
+}
+/* tr:nth-child(even) {
+    background-color: #444444;
+} */
+tr:hover {
+    background-color: rgb(83, 83, 83);
+}

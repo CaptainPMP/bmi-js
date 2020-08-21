@@ -9,15 +9,15 @@ function CalculateBMI(){
     BMI = Weight / (trueHeight ** 2);
     if(BMI > 30){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
-        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์โรคอ้วนระดับที่ 2";
+        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์โรคอ้วนระดับที่ 3";
     }
     else if(BMI > 25){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
-        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์โรคอ้วนระดับที่ 1";
+        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์โรคอ้วนระดับที่ 2";
     }
     else if(BMI > 23){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
-        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์น้ำหนักเกิน";
+        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์โรคอ้วนระดับที่ 1";
     }
     else if(BMI >= 18.5){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
@@ -25,7 +25,7 @@ function CalculateBMI(){
     }
     else if(BMI > 0){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
-        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์น้ำหนักน้อย";
+        document.getElementById("BMIValue").innerHTML = "คุณอยู่ในเกณฑ์น้ำหนักน้อยกว่ามาตรฐาน";
     }
     else if(BMI <= 0){
         document.getElementById("showBMI").innerHTML = "ค่า BMI ของคุณคือ " + BMI.toFixed(2);
