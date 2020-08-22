@@ -37,6 +37,7 @@ body .container div{
     margin: 20px auto;
     /* color: black !important; */
     border: none;
+    text-align: center;
 }
 
 @media screen and (max-width: 730px) {
