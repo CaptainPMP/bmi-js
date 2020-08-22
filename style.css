@@ -88,3 +88,6 @@ caption {
 tr {
     transition: 0.2s;
 }
+#BMIValue {
+    text-align: center;
+}
